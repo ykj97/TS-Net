@@ -30,11 +30,8 @@ class DiceLoss(nn.Module):
     def forward(self, inputs, targets, smooth=1):
         
         smooth = 1.0
-        
-        #comment out if your model contains a sigmoid or equivalent activation layer
+       
         inputs = torch.sigmoid(inputs)       
-        
-        #flatten label and prediction tensors
         inputs = inputs.view(-1)
         targets = targets.view(-1)
 
