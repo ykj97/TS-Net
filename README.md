@@ -12,7 +12,7 @@ The model was trained using a sample size of n=19 from the untreated group and t
 ## How to run TS-Net?
 - `TS-Net.py` : This is the main code file that includes the evaluation process using 5-fold cross-validation, soft voting, and the image save process.
 - `data/testset/...` : This directory contains a portion of the testset used in the research. 
-- `import/...` : This directory includes necessary code and dependencies required to run the TS-Net.py.
+- `import` : This directory includes necessary code and dependencies required to run the TS-Net.py.
 - `result` : This directory stores the results obtained from TS-Net with the provided testset.
 
 
