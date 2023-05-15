@@ -9,5 +9,10 @@ The model was trained using a sample size of n=19 from the untreated group and t
 ## Pipeline of TS-Net
 ![jun1](https://github.com/ykj97/TS-Net/assets/131689170/7872eec2-f55c-499f-a783-abca0b1bd65d)
 
+## How to run TS-Net?
+- `TS-Net.py` includes the evalutation with 5-fold cross-validation, soft voting, and image save process.
+- `data/testdat` includes the evalutation with 5-fold cross-validation, soft voting, and image save process.
+
+
 
 
