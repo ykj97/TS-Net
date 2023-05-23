@@ -180,7 +180,7 @@ for itr, test_name in enumerate(test_folder):
     if test_name == 'treated_subject_1':
         enesemble_C02 = preds_arr
         print("---- Save successfully enesemble output data of %s" % test_name)
-    elif test_name == 'untreated_group_1':
+    elif test_name == 'untreated_subject_1':
         enesemble_C10 = preds_arr
         print("---- Save successfully enesemble output data of %s" % test_name)
         
