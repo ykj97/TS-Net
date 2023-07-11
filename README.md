@@ -5,7 +5,7 @@ Tumor segmentation-Net (TS-Net) is a breast tumor segmentation model for an orth
 
 TS-Net involves replacing the encoder of U-Net with a pre-trained ResNet34 to improve performance.
 The model was trained using a sample size of n=19 from the untreated group and then subsequently assessed on both the untreated group (n=5) and Doxorubicin (DOX)-treated group (n=6). Accoring to this strategy, the dataset with untreated and DOX-treated could be utilized for your purpose. 
-## Vidoe
+## Video
 https://youtu.be/hisi43_iNy0
 
 ## Pipeline of TS-Net
